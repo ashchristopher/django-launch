@@ -1,0 +1,5 @@
+django-launch
+---------------
+
+django-launch is a quick way to get a launch page up for a beta website that collects users emails
+so that you can send out invites for beta access.
