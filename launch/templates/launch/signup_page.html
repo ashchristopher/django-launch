@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>Signup</title>
+    </head>
+    <body>
+        <h1>Sample Launch Page</h1>
+        <p>
+            You can customize by creating your own 
+            <strong>launch/signup_page.html</strong> file in your templates directory.
+        </p>
+        <form action='' method='POST'>
+            {% csrf_token %}
+            {{ signup_form.email.errors }}
+            {{ signup_form.email.label}}: {{ signup_form.email }}
+            <input type='submit' />
+        </form>
+    </body>
+</html>
